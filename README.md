@@ -13,7 +13,5 @@ Here it is how it looks on my computer. Feel free to copy and learn from this pr
 ## Instructions
 Just run "main.py" with python3 and the consolemenu package installed on your machine.
 
-I highly encourage you to go the project's page:
+I highly encourage you to go the project's page. There you can find installation instructions for the package and very useful examples inside the "examples" folder.
 https://github.com/aegirhall/console-menu
-
-There you can find instalation instructions for the package and very useful examples inside the "examples" folder.
