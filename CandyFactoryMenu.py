@@ -34,13 +34,14 @@ class CandyFactoryMenu(ConsoleMenu):
 
         self.easter_egg_menu_visit_count = 0
         
-        
     # We need to overide this function because the value of candy
-    # needs an update before we display our menu. The function "start"
-    # is called when we enter any ConsoleMenu
+    # needs an update before we display our menu. 
+    def draw(self):
+        self.render()
+        return super().draw()
+        
     def start(self):
         self.easter_egg_menu_visit_count += 1
-        self.render()
         super().start()
         
     def render(self):
@@ -74,11 +75,6 @@ class CandyFactoryMenu(ConsoleMenu):
                 is_ans_valid = True
             else:
                 print("\nInvalid value. Try again...")
-
-        # we need to update our speed text
-        self.render()
-        
-        
         
     def rendet_easter_egg(self):
 

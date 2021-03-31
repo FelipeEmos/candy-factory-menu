@@ -1,4 +1,5 @@
 
+from TimerMenu import TimerMenu
 from consolemenu.console_menu import ConsoleMenu
 import consolemenu.items as Items
 
